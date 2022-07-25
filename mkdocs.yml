@@ -1,0 +1,47 @@
+site_name: PyXenApi Docs
+site_url: https://imainday.github.io/xenforo.py/
+site_author: deku
+site_description: desc
+
+repo_url: https://github.com/iMainDay/xenforo.py
+repo_name: PyXenApi 
+
+nav:
+  - Welcome: index.md
+  - Installation: install.md
+  - API Documentation:
+    - getMe(): api/me.md 
+    - getAlerts(): api/alerts.md 
+    - getConversations(): api/conversations.md
+    - getNodes(): api/nodes.md
+    - getPost(): api/post.md
+    - getNode(): api/node.md
+    - getConversations(): api/conversations.md
+    - getProfilePostComment(): api/profilepostcomment.md
+    - getForum(): api/forum.md
+    - deletePost(): api/deletepost.md
+    
+theme:
+  name: material
+  font:
+    text: Ubuntu
+    code: Monaco
+  palette:
+    scheme: slate
+    accent: amber
+ 
+    
+extra_css:
+    - css/custom.css
+    
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight:
+     anchor_linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.tabbed:
+      alternate_style: true 
+  - tables
