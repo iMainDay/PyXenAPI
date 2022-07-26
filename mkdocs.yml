@@ -1,9 +1,9 @@
 site_name: PyXenApi Docs
-site_url: https://imainday.github.io/xenforo.py/
+site_url: https://imainday.github.io/PyXenApi/
 site_author: deku
 site_description: desc
 
-repo_url: https://github.com/iMainDay/xenforo.py
+repo_url: https://github.com/iMainDay/PyXenApi
 repo_name: PyXenApi 
 
 nav:
@@ -16,10 +16,11 @@ nav:
     - getNodes(): api/nodes.md
     - getPost(): api/post.md
     - getNode(): api/node.md
-    - getConversations(): api/conversations.md
     - getProfilePostComment(): api/profilepostcomment.md
+    - getConversationMessage(): api/conversationmessage.md 
     - getForum(): api/forum.md
     - deletePost(): api/deletepost.md
+    - replyToConversation(): api/replytoconversation.md
     
 theme:
   name: material
